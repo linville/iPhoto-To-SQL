@@ -9,17 +9,28 @@
 /* Begin PBXBuildFile section */
 		C02BDDA41540E1A700F4B315 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02BDDA31540E1A700F4B315 /* Cocoa.framework */; };
 		C02BDDAE1540E1A700F4B315 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C02BDDAC1540E1A700F4B315 /* InfoPlist.strings */; };
+		C02BDDC21540E5CB00F4B315 /* iPhotoToSQLPluginBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C02BDDC11540E5CB00F4B315 /* iPhotoToSQLPluginBox.m */; };
+		C02BDDC51540E61500F4B315 /* iPhotoToSQLController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02BDDC41540E61500F4B315 /* iPhotoToSQLController.m */; };
+		C02BDDCD1540E86600F4B315 /* iPhoto To SQL.xib in Resources */ = {isa = PBXBuildFile; fileRef = C02BDDCC1540E86600F4B315 /* iPhoto To SQL.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C02BDDA01540E1A700F4B315 /* iPhoto To SQL.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhoto To SQL.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02BDDA01540E1A700F4B315 /* iPhoto To SQL.iPhotoExporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhoto To SQL.iPhotoExporter"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02BDDA31540E1A700F4B315 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C02BDDA61540E1A700F4B315 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C02BDDA71540E1A700F4B315 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C02BDDA81540E1A700F4B315 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C02BDDAB1540E1A700F4B315 /* iPhoto To SQL-Info.plist */ = {isa = PBXFileReference; path = "iPhoto To SQL-Info.plist"; sourceTree = "<group>"; };
+		C02BDDAB1540E1A700F4B315 /* iPhoto To SQL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoto To SQL-Info.plist"; sourceTree = "<group>"; };
 		C02BDDAD1540E1A700F4B315 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C02BDDAF1540E1A700F4B315 /* iPhoto To SQL-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoto To SQL-Prefix.pch"; sourceTree = "<group>"; };
+		C02BDDAF1540E1A700F4B315 /* iPhoto To SQL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhoto To SQL-Prefix.pch"; sourceTree = "<group>"; };
+		C02BDDBD1540E4CC00F4B315 /* ExportImageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExportImageProtocol.h; path = "iPhoto Protocol/ExportImageProtocol.h"; sourceTree = "<group>"; };
+		C02BDDBE1540E4CC00F4B315 /* ExportPluginBoxProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExportPluginBoxProtocol.h; path = "iPhoto Protocol/ExportPluginBoxProtocol.h"; sourceTree = "<group>"; };
+		C02BDDBF1540E4CC00F4B315 /* ExportPluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExportPluginProtocol.h; path = "iPhoto Protocol/ExportPluginProtocol.h"; sourceTree = "<group>"; };
+		C02BDDC01540E5CB00F4B315 /* iPhotoToSQLPluginBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhotoToSQLPluginBox.h; path = Source/iPhotoToSQLPluginBox.h; sourceTree = "<group>"; };
+		C02BDDC11540E5CB00F4B315 /* iPhotoToSQLPluginBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhotoToSQLPluginBox.m; path = Source/iPhotoToSQLPluginBox.m; sourceTree = "<group>"; };
+		C02BDDC31540E61500F4B315 /* iPhotoToSQLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhotoToSQLController.h; path = Source/iPhotoToSQLController.h; sourceTree = "<group>"; };
+		C02BDDC41540E61500F4B315 /* iPhotoToSQLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhotoToSQLController.m; path = Source/iPhotoToSQLController.m; sourceTree = "<group>"; };
+		C02BDDCC1540E86600F4B315 /* iPhoto To SQL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "iPhoto To SQL.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +57,7 @@
 		C02BDDA11540E1A700F4B315 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C02BDDA01540E1A700F4B315 /* iPhoto To SQL.bundle */,
+				C02BDDA01540E1A700F4B315 /* iPhoto To SQL.iPhotoExporter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +84,8 @@
 		C02BDDA91540E1A700F4B315 /* iPhoto To SQL */ = {
 			isa = PBXGroup;
 			children = (
+				C02BDDB91540E30A00F4B315 /* Source */,
+				C02BDDB51540E2BE00F4B315 /* iPhoto Protocol */,
 				C02BDDAA1540E1A700F4B315 /* Supporting Files */,
 			);
 			path = "iPhoto To SQL";
@@ -84,8 +97,30 @@
 				C02BDDAB1540E1A700F4B315 /* iPhoto To SQL-Info.plist */,
 				C02BDDAC1540E1A700F4B315 /* InfoPlist.strings */,
 				C02BDDAF1540E1A700F4B315 /* iPhoto To SQL-Prefix.pch */,
+				C02BDDCC1540E86600F4B315 /* iPhoto To SQL.xib */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C02BDDB51540E2BE00F4B315 /* iPhoto Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C02BDDBD1540E4CC00F4B315 /* ExportImageProtocol.h */,
+				C02BDDBE1540E4CC00F4B315 /* ExportPluginBoxProtocol.h */,
+				C02BDDBF1540E4CC00F4B315 /* ExportPluginProtocol.h */,
+			);
+			name = "iPhoto Protocol";
+			sourceTree = "<group>";
+		};
+		C02BDDB91540E30A00F4B315 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C02BDDC01540E5CB00F4B315 /* iPhotoToSQLPluginBox.h */,
+				C02BDDC11540E5CB00F4B315 /* iPhotoToSQLPluginBox.m */,
+				C02BDDC31540E61500F4B315 /* iPhotoToSQLController.h */,
+				C02BDDC41540E61500F4B315 /* iPhotoToSQLController.m */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +140,7 @@
 			);
 			name = "iPhoto To SQL";
 			productName = "iPhoto To SQL";
-			productReference = C02BDDA01540E1A700F4B315 /* iPhoto To SQL.bundle */;
+			productReference = C02BDDA01540E1A700F4B315 /* iPhoto To SQL.iPhotoExporter */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -139,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02BDDAE1540E1A700F4B315 /* InfoPlist.strings in Resources */,
+				C02BDDCD1540E86600F4B315 /* iPhoto To SQL.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02BDDC21540E5CB00F4B315 /* iPhotoToSQLPluginBox.m in Sources */,
+				C02BDDC51540E61500F4B315 /* iPhotoToSQLController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +209,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -198,7 +236,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -219,9 +257,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoto To SQL/iPhoto To SQL-Prefix.pch";
 				INFOPLIST_FILE = "iPhoto To SQL/iPhoto To SQL-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "$(HOME)/Library/Application Support/iPhoto/Plugins/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = iPhotoExporter;
 			};
 			name = Debug;
 		};
@@ -231,9 +269,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoto To SQL/iPhoto To SQL-Prefix.pch";
 				INFOPLIST_FILE = "iPhoto To SQL/iPhoto To SQL-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "$(HOME)/Library/Application Support/iPhoto/Plugins/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = iPhotoExporter;
 			};
 			name = Release;
 		};
@@ -256,6 +294,7 @@
 				C02BDDB41540E1A700F4B315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
