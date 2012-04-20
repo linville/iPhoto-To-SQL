@@ -2,8 +2,7 @@
 //  iPhotoToSQLController.h
 //  iPhoto To SQL
 //
-//  Created by Aaron Linville on 4/19/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Aaron Linville.
 //
 
 #import <Cocoa/Cocoa.h>
