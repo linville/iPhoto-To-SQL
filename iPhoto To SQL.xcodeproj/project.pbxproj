@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C02BDDA41540E1A700F4B315 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02BDDA31540E1A700F4B315 /* Cocoa.framework */; };
+		C02BDDAE1540E1A700F4B315 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C02BDDAC1540E1A700F4B315 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C02BDDA01540E1A700F4B315 /* iPhoto To SQL.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhoto To SQL.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02BDDA31540E1A700F4B315 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C02BDDA61540E1A700F4B315 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C02BDDA71540E1A700F4B315 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C02BDDA81540E1A700F4B315 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C02BDDAB1540E1A700F4B315 /* iPhoto To SQL-Info.plist */ = {isa = PBXFileReference; path = "iPhoto To SQL-Info.plist"; sourceTree = "<group>"; };
+		C02BDDAD1540E1A700F4B315 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C02BDDAF1540E1A700F4B315 /* iPhoto To SQL-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoto To SQL-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02BDD9D1540E1A700F4B315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02BDDA41540E1A700F4B315 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C02BDD951540E1A700F4B315 = {
+			isa = PBXGroup;
+			children = (
+				C02BDDA91540E1A700F4B315 /* iPhoto To SQL */,
+				C02BDDA21540E1A700F4B315 /* Frameworks */,
+				C02BDDA11540E1A700F4B315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C02BDDA11540E1A700F4B315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02BDDA01540E1A700F4B315 /* iPhoto To SQL.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02BDDA21540E1A700F4B315 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C02BDDA31540E1A700F4B315 /* Cocoa.framework */,
+				C02BDDA51540E1A700F4B315 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C02BDDA51540E1A700F4B315 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C02BDDA61540E1A700F4B315 /* AppKit.framework */,
+				C02BDDA71540E1A700F4B315 /* CoreData.framework */,
+				C02BDDA81540E1A700F4B315 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C02BDDA91540E1A700F4B315 /* iPhoto To SQL */ = {
+			isa = PBXGroup;
+			children = (
+				C02BDDAA1540E1A700F4B315 /* Supporting Files */,
+			);
+			path = "iPhoto To SQL";
+			sourceTree = "<group>";
+		};
+		C02BDDAA1540E1A700F4B315 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C02BDDAB1540E1A700F4B315 /* iPhoto To SQL-Info.plist */,
+				C02BDDAC1540E1A700F4B315 /* InfoPlist.strings */,
+				C02BDDAF1540E1A700F4B315 /* iPhoto To SQL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02BDD9F1540E1A700F4B315 /* iPhoto To SQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02BDDB21540E1A700F4B315 /* Build configuration list for PBXNativeTarget "iPhoto To SQL" */;
+			buildPhases = (
+				C02BDD9C1540E1A700F4B315 /* Sources */,
+				C02BDD9D1540E1A700F4B315 /* Frameworks */,
+				C02BDD9E1540E1A700F4B315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPhoto To SQL";
+			productName = "iPhoto To SQL";
+			productReference = C02BDDA01540E1A700F4B315 /* iPhoto To SQL.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02BDD971540E1A700F4B315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C02BDD9A1540E1A700F4B315 /* Build configuration list for PBXProject "iPhoto To SQL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C02BDD951540E1A700F4B315;
+			productRefGroup = C02BDDA11540E1A700F4B315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02BDD9F1540E1A700F4B315 /* iPhoto To SQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02BDD9E1540E1A700F4B315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02BDDAE1540E1A700F4B315 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02BDD9C1540E1A700F4B315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C02BDDAC1540E1A700F4B315 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02BDDAD1540E1A700F4B315 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C02BDDB01540E1A700F4B315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C02BDDB11540E1A700F4B315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C02BDDB31540E1A700F4B315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoto To SQL/iPhoto To SQL-Prefix.pch";
+				INFOPLIST_FILE = "iPhoto To SQL/iPhoto To SQL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C02BDDB41540E1A700F4B315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoto To SQL/iPhoto To SQL-Prefix.pch";
+				INFOPLIST_FILE = "iPhoto To SQL/iPhoto To SQL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02BDD9A1540E1A700F4B315 /* Build configuration list for PBXProject "iPhoto To SQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02BDDB01540E1A700F4B315 /* Debug */,
+				C02BDDB11540E1A700F4B315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02BDDB21540E1A700F4B315 /* Build configuration list for PBXNativeTarget "iPhoto To SQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02BDDB31540E1A700F4B315 /* Debug */,
+				C02BDDB41540E1A700F4B315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02BDD971540E1A700F4B315 /* Project object */;
+}

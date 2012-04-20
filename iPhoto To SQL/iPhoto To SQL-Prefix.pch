@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iPhoto To SQL' target in the 'iPhoto To SQL' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
