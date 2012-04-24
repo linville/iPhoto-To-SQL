@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.6</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -26,5 +26,7 @@
 	<string>Copyright © 2012 Aaron Linville.</string>
 	<key>NSPrincipalClass</key>
 	<string>iPhotoToSQLController</string>
+	<key>NSMainNibFile</key>
+	<string>iPhoto To SQL</string>
 </dict>
 </plist>

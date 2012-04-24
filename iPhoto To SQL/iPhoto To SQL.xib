@@ -504,6 +504,30 @@
 					</object>
 					<int key="connectionID">192</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">mSettingsBox</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="185234920"/>
+					</object>
+					<int key="connectionID">193</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">mFirstView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="89908760"/>
+					</object>
+					<int key="connectionID">194</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">mPlugin</string>
+						<reference key="source" ref="185234920"/>
+						<reference key="destination" ref="1001"/>
+					</object>
+					<int key="connectionID">196</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -1409,7 +1433,7 @@
 				<string key="1.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1.IBWindowTemplateEditedContentRect">{{357, 418}, {480, 270}}</string>
 				<integer value="1" key="1.NSWindowTemplate.visibleAtLaunch"/>
-				<string key="113.CustomClassName">IPhotoToSQLBox</string>
+				<string key="113.CustomClassName">iPhotoToSQLPluginBox</string>
 				<array class="NSMutableArray" key="113.IBNSViewMetadataConstraints">
 					<reference ref="387256979"/>
 					<reference ref="309542665"/>
@@ -1556,7 +1580,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">192</int>
+			<int key="maxID">196</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1623,6 +1647,25 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/iPhotoToSQLController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">iPhotoToSQLPluginBox</string>
+					<string key="superclassName">NSBox</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">mPlugin</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">mPlugin</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
+							<string key="name">mPlugin</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/iPhotoToSQLPluginBox.h</string>
 					</object>
 				</object>
 			</array>
