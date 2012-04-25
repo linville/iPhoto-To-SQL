@@ -11,7 +11,7 @@
 		C02BDDAE1540E1A700F4B315 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C02BDDAC1540E1A700F4B315 /* InfoPlist.strings */; };
 		C02BDDC21540E5CB00F4B315 /* iPhotoToSQLPluginBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C02BDDC11540E5CB00F4B315 /* iPhotoToSQLPluginBox.m */; };
 		C02BDDC51540E61500F4B315 /* iPhotoToSQLController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02BDDC41540E61500F4B315 /* iPhotoToSQLController.m */; };
-		C02BDDCD1540E86600F4B315 /* iPhoto To SQL.xib in Resources */ = {isa = PBXBuildFile; fileRef = C02BDDCC1540E86600F4B315 /* iPhoto To SQL.xib */; };
+		C06605511547851E00D3AFF2 /* iPhoto To SQL.xib in Resources */ = {isa = PBXBuildFile; fileRef = C06605501547851E00D3AFF2 /* iPhoto To SQL.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		C02BDDC11540E5CB00F4B315 /* iPhotoToSQLPluginBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhotoToSQLPluginBox.m; path = Source/iPhotoToSQLPluginBox.m; sourceTree = "<group>"; };
 		C02BDDC31540E61500F4B315 /* iPhotoToSQLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhotoToSQLController.h; path = Source/iPhotoToSQLController.h; sourceTree = "<group>"; };
 		C02BDDC41540E61500F4B315 /* iPhotoToSQLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhotoToSQLController.m; path = Source/iPhotoToSQLController.m; sourceTree = "<group>"; };
-		C02BDDCC1540E86600F4B315 /* iPhoto To SQL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "iPhoto To SQL.xib"; sourceTree = "<group>"; };
+		C06605501547851E00D3AFF2 /* iPhoto To SQL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "iPhoto To SQL.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 				C02BDDAB1540E1A700F4B315 /* iPhoto To SQL-Info.plist */,
 				C02BDDAC1540E1A700F4B315 /* InfoPlist.strings */,
 				C02BDDAF1540E1A700F4B315 /* iPhoto To SQL-Prefix.pch */,
-				C02BDDCC1540E86600F4B315 /* iPhoto To SQL.xib */,
+				C06605501547851E00D3AFF2 /* iPhoto To SQL.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02BDDAE1540E1A700F4B315 /* InfoPlist.strings in Resources */,
-				C02BDDCD1540E86600F4B315 /* iPhoto To SQL.xib in Resources */,
+				C06605511547851E00D3AFF2 /* iPhoto To SQL.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
